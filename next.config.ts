@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',
+  turbopack: {},
   webpack: (config) => {
     config.externals.push("pino-pretty", "lokijs", "encoding");
     config.resolve.fallback = {
