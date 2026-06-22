@@ -1,0 +1,18 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/api/*",
+      "/_next/*",
+      "/favicon.ico",
+      "/icon.png",
+      "/logo.png",
+      "/hero.png",
+      "/splash.png",
+      "/public/*"
+    ]
+  },
+  "platform": {
+    "apiRuntime": "node:20"
+  }
+}
